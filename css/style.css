@@ -11,19 +11,20 @@ body    {
 }
 
 header{
-    margin-bottom: 100px;
+    margin-bottom: 5vh;
     background-color: white;
 }
 
 /*top buttons plus dropdown menus*/
 
 main    {
-    margin-left: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
     background-color: white;
 }
 
 #logo   {
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 
 #toboolist  {
@@ -35,13 +36,13 @@ main    {
     background-color: aqua;
     display: inline-block;
     color: white;
-    padding: 10px;
+    padding: 1%;
     border-style: solid;
     border-width: 2px;
     border-color: aqua;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left:50px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left:5%;
 }
 
 #section-button {
@@ -49,17 +50,17 @@ main    {
     background-color: white;
     color: grey;
     display: inline-block;
-    padding:10px;
+    padding: 1%;
     border-style: solid;
     border-width: 2px;
     border-color: grey;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
 .dropdown   {
-    margin-top: 60px;
-    margin-left: 20px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 /*circular container for checkmarks*/
@@ -67,7 +68,29 @@ main    {
     border-style: solid;
     border-radius: 50%;
     border-color: green;
+    color: green;
 }
+
+
+/*circular container for crossmarks*/
+.crossmark  {
+    border-style: solid;
+    border-radius: 50%;
+    border-color: red;
+    color: red;
+}
+
+#q1-goals   {
+    border-radius: 20px;
+    background-color: purple;
+    display: inline-block;
+    padding:10px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+/*buttons' colors*/
 
 #editorial  {
     border-radius: 20px;
@@ -79,16 +102,39 @@ main    {
     border-width: 2px;
 }
 
-/*circular container for crossmarks*/
-.crossmark  {
+#recruiting {
+    border-radius: 20px;
+    background-color: lightgreen;
+    display: inline-block;
+    padding:10px;
+    color: white;
     border-style: solid;
-    border-radius: 50%;
-    border-color: red;
+    border-width: 2px;
 }
 
-#q1-goals   {
+#mobile {
     border-radius: 20px;
-    background-color: purple;
+    background-color: orange;
+    display: inline-block;
+    padding:10px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#website    {
+    border-radius: 20px;
+    background-color: fuchsia;
+    display: inline-block;
+    padding:10px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#sales  {
+    border-radius: 20px;
+    background-color: greenyellow;
     display: inline-block;
     padding:10px;
     color: white;
