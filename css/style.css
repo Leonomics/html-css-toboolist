@@ -80,19 +80,10 @@ main    {
     color: red;
 }
 
-#q1-goals   {
-    border-radius: 20px;
-    background-color: purple;
-    display: inline-block;
-    padding:10px;
-    color: white;
-    border-style: solid;
-    border-width: 2px;
-}
 
 /*buttons' colors*/
 
-#editorial  {
+.editorial  {
     border-radius: 20px;
     background-color: blue;
     display: inline-block;
@@ -102,7 +93,7 @@ main    {
     border-width: 2px;
 }
 
-#recruiting {
+.recruiting {
     border-radius: 20px;
     background-color: lightgreen;
     display: inline-block;
@@ -112,7 +103,17 @@ main    {
     border-width: 2px;
 }
 
-#mobile {
+.q1-goals   {
+    border-radius: 20px;
+    background-color: purple;
+    display: inline-block;
+    padding:10px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.mobile {
     border-radius: 20px;
     background-color: orange;
     display: inline-block;
@@ -122,7 +123,7 @@ main    {
     border-width: 2px;
 }
 
-#website    {
+.website    {
     border-radius: 20px;
     background-color: fuchsia;
     display: inline-block;
@@ -132,7 +133,7 @@ main    {
     border-width: 2px;
 }
 
-#sales  {
+.sales  {
     border-radius: 20px;
     background-color: greenyellow;
     display: inline-block;
